@@ -1,16 +1,76 @@
-# React + Vite
+React Basic Counter 🔢
+A lightweight, interactive counter application built with React and Vite. This project serves as a fundamental example of state management using the useState hook.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+➕ Increment: Increase the count by 1 with the "ADD" button.
 
-Currently, two official plugins are available:
+➖ Decrement: Decrease the count by 1 with the "LESS" button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Reset: Instantly clear the counter back to 0.
 
-## React Compiler
+⚡ Real-time Updates: Instant UI updates powered by React State.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Responsive: Works perfectly on both mobile and desktop browsers.
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used
+React 19: Utilizing the useState hook for state management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite: For a blazing-fast development environment.
+
+CSS3: Custom styling for the counter card and buttons.
+
+🚀 Getting Started
+Prerequisites
+Node.js (v18 or higher)
+
+npm
+
+Installation
+Clone the repository
+
+Bash
+
+git clone https://github.com/AbdulMateenMiyanoor0711/number-counter-react.js.git
+Navigate to the directory
+
+Bash
+
+cd REACT-BASIC-COUNTER
+Install dependencies
+
+Bash
+
+npm install
+Start the app
+
+Bash
+
+npm run dev
+📖 How It Works
+This project demonstrates the core concept of State in React.
+
+The counter value is stored in a state variable called count. When a user clicks a button, the setCount function updates the value, triggering React to re-render the component and show the new number instantly.
+
+JavaScript
+
+const [count, setCount] = useState(0);
+
+// Add logic
+setCount((count) => count + 1)
+
+// Reset logic
+setCount(0)
+📦 Available Scripts
+npm run dev: Runs the app in development mode.
+
+npm run build: Builds the app for production.
+
+npm run preview: Previews the production build locally.
+
+<div align="center">
+
+Made with ❤️ by Abdul Mateen Miyanoor
+
+⭐ If you like this project, give it a star on GitHub! ⭐
+
+</div>
